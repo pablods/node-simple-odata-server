@@ -16,19 +16,19 @@ This is how you can create an OData server with node.js http module and nedb.
 var http = require('http');
 var Datastore = require('nedb');
 var db = new Datastore( { inMemoryOnly: true });
-var ODataServer = require("odata-simple-server");
+var ODataServer = require("simple-odata-server");
 
 var model = {
     namespace: "jsreport",
     entityTypes: {
-        "jsreport.UserType": {
+        "UserType": {
             "_id": {"type": "Edm.String", key: true},
             "test": {"type": "Edm.String"},            
         }
     },   
     entitySets: {
         "users": {
-            type: "jsreport.UserType"
+            entityType: "jsreport.UserType"
         }
     }
 };
