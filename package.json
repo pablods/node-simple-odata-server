@@ -1,0 +1,64 @@
+{
+  "name": "simple-odata-server",
+  "version": "0.1.4",
+  "description": "OData server with adapter for mongodb and nedb",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "author": {
+    "name": "Jan Blaha"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pofider/node-simple-odata-server.git"
+  },
+  "keywords": [
+    "OData",
+    "server",
+    "mongodb",
+    "nedb"
+  ],
+  "dependencies": {
+    "methods": "1.1.1",
+    "odata-parser": "1.2.0",
+    "path-to-regexp": "1.0.3",
+    "xmlbuilder": "2.5.0",
+    "underscore":"*"
+  },
+  "devDependencies": {
+    "mocha": "2.2.1",
+    "nedb": "1.1.1",
+    "mongodb": "2.0.26",
+    "should": "5.2.0",
+    "supertest": "0.15.0",
+    "xml2js": "0.4.6"
+  },
+  "gitHead": "d8908dc2de2769e90fb015309748c36f5396fbd1",
+  "bugs": {
+    "url": "https://github.com/pofider/node-simple-odata-server/issues"
+  },
+  "homepage": "https://github.com/pofider/node-simple-odata-server#readme",
+  "_id": "simple-odata-server@0.1.4",
+  "_shasum": "e72a70fc328fa82120b299a8ce06c9c41620fd05",
+  "_from": "simple-odata-server@0.1.4",
+  "_npmVersion": "2.9.1",
+  "_nodeVersion": "0.12.3",
+  "_npmUser": {
+    "name": "pofider",
+    "email": "jan.blaha@hotmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "pofider",
+      "email": "jan.blaha@hotmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "e72a70fc328fa82120b299a8ce06c9c41620fd05",
+    "tarball": "http://registry.npmjs.org/simple-odata-server/-/simple-odata-server-0.1.4.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/simple-odata-server/-/simple-odata-server-0.1.4.tgz"
+}
